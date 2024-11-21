@@ -114,6 +114,6 @@ input:focus {
 
 #commentList li .comment-date {
   font-size: 12px;
-  color: #aaa;
+  color: #000000;
   margin-top: 5px;
 }
