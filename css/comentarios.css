@@ -1,0 +1,119 @@
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+input {
+  display: block;
+  width: 80%; /* Ajuste para não ocupar 100% da largura */
+  max-width: 600px; /* Limite de largura */
+  height: 40px;
+  padding: 5px 0 5px 20px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  color: #000000;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #0061f2; /* Destaque na borda ao focar */
+}
+
+.button-cv {
+  width: 150px;
+  height: 40px;
+  background-color: #0061f2;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.button-cv:hover {
+  background-color: #004bb5; /* Cor ao passar o mouse */
+}
+
+#commentList {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #ccc; /* Fundo transparente */
+  border: 1px solid rgba(51, 51, 51, 0.5); /* Bordas com opacidade */
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px; /* Limitar a largura */
+}
+
+#commentList h2 {
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #0061f2;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#commentList ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espaçamento entre os comentários */
+}
+
+#commentList li {
+  background-color: #2e2e2e;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word;
+  white-space: pre-line;
+  transition: transform 0.2s ease;
+}
+
+#commentList li:hover {
+  transform: scale(1.02); /* Efeito de zoom ao passar o mouse */
+}
+
+#commentList li .comment-author {
+  font-weight: bold;
+  color: #0061f2;
+}
+
+#commentList li .comment-date {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 5px;
+}

@@ -1,0 +1,56 @@
+.fotos-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.fotos {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.foto {
+  width: 320px;
+  height: 180px;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 20px 10px;
+}
+
+.foto:hover {
+  transform: scale(1.02);
+}
+
+.foto1 {
+  background-image: url(../imgs/pasta/aquaman_e_batman_capa_widelg.jpg);
+}
+.foto2 {
+  background-image: url(../imgs/pasta/cena-de-liga-da-justica-1510349861520_v2_1x1.jpg);
+}
+.foto3 {
+  background-image: url(../imgs/pasta/LJ-Mulher-Maravilha.png);
+}
+.foto4 {
+  background-image: url(../imgs/pasta/ligadajustica.png);
+}
+.foto5 {
+  background-image: url(../imgs/pasta/liga-da-justiça.jpg);
+}
+.foto6 {
+  background-image: url(../imgs/pasta/download.jpeg);
+}
+@media (max-width: 768px) {
+  .fotos {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga da Justiça: Mundo Bélico</title>
+    <link rel="icon" type="image/x-icon" href="./imgs/Justice-league-logo-1-.webp" />
+    <link href="./css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="./imgs/Justice-league-logo-1-.webp" />
+      <nav>
+        <ul>
+          <a href="./index.html">
+            <li>Home</li>
+          </a>
+          <a href="./contatos.html">
+            <li>Contatos</li>
+          </a>
+          <a href="./fotos.html">
+            <li>Fotos</li>
+          </a>
+          <a href="./comentarios.html">
+            <li>Comentários</li>
+          </a>
+          
+        </ul>
+      </nav>
+    </header>
+    <div id="banner"></div>
+
+    <div id="trailer-container">
+      <div class="content">
+        
+
+    <!-- Trigger Button to Open Modal -->
+
+
+<!-- Modal Structure -->
+<div id="modal-container" class="modal-container">
+    <div class="modal">
+        <div class="teste">
+       <h1>Liga da Justiça</h1>
+       <button class="fechar" id="fechar">X</button>
+        </div>
+        <!-- Tab Navigation -->
+        <!-- Video Content -->
+        <div id="video-1" class="video-tab">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BZUm2lpPoKM?si=Mne1jP6pFEJKSD6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+        <div id="video-2" class="video-tab" style="display:none;">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/f4wCAW60Dlg?si=KKiBWzJ57Oyk7xpG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="tabs">
+          <button class="tab-button" onclick="showVideo('video-1')">Trailer 1</button>
+          <button class="tab-button" onclick="showVideo('video-2')">Trailer 2</button>
+      </div>
+
+    </div>
+</div>
+
+        
+    </div>
+        <div id="sinopse">
+          <div onclick="openModal()" class="button">
+            <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg" class="injected-svg" data-src="/images/play-filled.svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img">
+              <g filter="url(#filter0_d_20_2748-6)">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M5 26.3333C5 40.3245 16.3421 51.6667 30.3333 51.6667C44.3245 51.6667 55.6667 40.3245 55.6667 26.3333C55.6667 12.3421 44.3245 1 30.3333 1C16.3421 1 5 12.3421 5 26.3333ZM40.7889 27.8448C42.4037 26.9951 42.4037 25.0049 40.7889 24.1552L25.9187 16.3302C24.2164 15.4343 22 16.4652 22 18.175V33.825C22 35.5348 24.2164 36.5657 25.9187 35.6698L40.7889 27.8448Z" fill="white"></path>
+              </g>
+              <defs>
+              <filter id="filter0_d_20_2748-6" x="0" y="0" width="60.6667" height="60.6666" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+              <feOffset dy="4"></feOffset>
+              <feGaussianBlur stdDeviation="2.5"></feGaussianBlur>
+              <feComposite in2="hardAlpha" operator="out"></feComposite>
+              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"></feColorMatrix>
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_20_2748"></feBlend>
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_20_2748" result="shape"></feBlend>
+              </filter>
+              </defs>
+              </svg>
+              
+          </div>
+          <div class="description-container">
+          <p class="description">
+            Impulsionado pela restauração de sua fé na humanidade e inspirado pelo ato altruísta do Superman (Henry Cavill), Bruce Wayne (Ben Affleck) convoca sua nova aliada Diana Prince (Gal Gadot) para o combate contra um inimigo ainda maior, recém-despertado. Juntos, Batman e Mulher-Maravilha buscam e recrutam com agilidade um time de meta-humanos.
+          </p>
+          <div class="btn-contato">
+
+            <a href=><button>Comprar Ingresso</button></a>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="actor-cards-container">
+      <div class="cards-content">
+        <div class="card banner1">Ben Affleck - Batman</div>
+        <div class="card banner2">Gal Gadot - Mulher - Maravilha</div>
+        <div class="card banner3">Jason Momoa - Aquaman</div>
+        <div class="card banner4">Ezra Miller - Flash</div>
+        <div class="card banner5">Ray Fisher - Ciborgue</div>
+      </div>
+    </div>
+
+    <footer>
+      <img style="object-fit: contain" id="logo" src="./imgs/Justice-league-logo-1-.webp" />
+      <span>Todos os direitos reservados &#169;</span>
+      <span>Desenvolvido por João Carlos</span>
+
+      <nav class="footer-navigation">
+        <ul class="footer-list">
+          <a href="./index.html">
+            <li>Home</li>
+          </a>
+          <a href="./contatos.html">
+            <li>Contatos</li>
+          </a>
+          <a href="./fotos.html">
+            <li>Fotos</li>
+          </a>
+          <a href="./comentarios.html">
+            <li>Comentários</li>
+          </a>
+        </ul>
+      </nav>
+    </footer>
+    <script src="./java/script.js"></script>
+  </body>
+</html>
