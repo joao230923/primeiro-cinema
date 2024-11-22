@@ -91,7 +91,7 @@
           </p>
           <div class="btn-contato">
 
-            <a href=><button>Comprar Ingresso</button></a>
+            <a href=""><button>Comprar Ingresso</button></a>
           </div>
           </a>
         </div>
@@ -99,13 +99,27 @@
     </div>
     <div class="actor-cards-container">
       <div class="cards-content">
-        <div class="card banner1">Ben Affleck - Batman</div>
-        <div class="card banner2">Gal Gadot - Mulher - Maravilha</div>
-        <div class="card banner3">Jason Momoa - Aquaman</div>
-        <div class="card banner4">Ezra Miller - Flash</div>
-        <div class="card banner5">Ray Fisher - Ciborgue</div>
+        <div class="card banner1" onclick="openActorModal('batman')">Ben Affleck - Batman</div>
+        <div class="card banner2" onclick="openActorModal('wonder-woman')">Gal Gadot - Mulher-Maravilha</div>
+        <div class="card banner3" onclick="openActorModal('aquaman')">Jason Momoa - Aquaman</div>
+        <div class="card banner4" onclick="openActorModal('flash')">Ezra Miller - Flash</div>
+        <div class="card banner5" onclick="openActorModal('cyborg')">Ray Fisher - Ciborgue</div>
       </div>
     </div>
+    
+   <!-- Modal para Histórias dos Personagens -->
+<div id="actor-modal" class="modal-container" style="display: none;">
+  <div class="modal">
+    <div class="modal-header">
+      <h1 id="actor-title" ></h1>
+      <button class="fechar" onclick="closeActorModal()">X</button>
+    </div>
+    <div class="modal-body">
+      <p id="actor-description" ></p>
+    </div>
+  </div>
+</div>
+
 
     <footer>
       <img style="object-fit: contain" id="logo" src="./imgs/Justice-league-logo-1-.webp" />
