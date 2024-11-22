@@ -17,11 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
   
         // Adiciona o comentário à lista
         commentList.appendChild(newComment);
+        console.log (newComment )
   
         // Limpa o campo de entrada
         commentInput.value = "";
       } else {
         alert("Por favor, insira um comentário válido!");
+        
       }
     });
   });
