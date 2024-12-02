@@ -371,14 +371,19 @@ body {
 
 
   .fechar {
-    
     background-color: transparent;
     color: white;
     font-size: 18px;
     cursor: pointer;
     border: none;
-   
   }
+
+.actor-title-container {
+  display: flex;
+  background-color: transparent;
+  gap: 160px;
+  justify-content: space-between;
+}
 
 
 
