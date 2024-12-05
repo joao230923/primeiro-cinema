@@ -20,7 +20,7 @@
   background-position: 50% 50%;
   border-radius: 5px;
   cursor: pointer;
-  transition: 1s;
+  transition: all ease-in-out 1s;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
